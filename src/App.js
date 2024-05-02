@@ -13,8 +13,8 @@ import Lightanddarktheme from './components/Lightanddarktheme';
 
 function App() {
   return (
-    <>
-    <Showhide />
+    <div className='overscroll-none select-none'>
+    <h1 className="flex justify-center text-4xl font-bold mt-[43vh]">Click the below Buttons to view the Pages</h1>
     <Navigation />
     <Routes>
       <Route path="/" element={<Showhide />} />
@@ -27,7 +27,7 @@ function App() {
       <Route path="/Copytoclipboard" element={<Copytoclipboard />} />
       <Route path="/Lightanddarktheme" element={<Lightanddarktheme />} />
     </Routes>
-  </>
+  </div>
   );
 }
 
