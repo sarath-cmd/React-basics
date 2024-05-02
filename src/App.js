@@ -17,7 +17,7 @@ function App() {
     <Showhide />
     <Navigation />
     <Routes>
-      <Route path="/Showhide" element={<Showhide />} />
+      <Route path="/" element={<Showhide />} />
       <Route path="/Progressbar" element={<Progressbar />} />
       <Route path="/Formdata" element={<Formdata />} />
       <Route path="/Hovercounter" element={<Hovercounter />} />
