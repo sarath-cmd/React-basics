@@ -14,6 +14,7 @@ import Lightanddarktheme from './components/Lightanddarktheme';
 function App() {
   return (
     <>
+    <Showhide />
     <Navigation />
     <Routes>
       <Route path="/" element={<Showhide />} />
